@@ -26,3 +26,14 @@
 {
     display: none;
 }
+
+fieldset label
+{
+    display:block;
+}
+
+fielset input
+{
+    display:block;
+    margin-bottom: 5mpx;
+}
