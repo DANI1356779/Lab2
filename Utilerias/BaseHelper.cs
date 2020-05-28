@@ -32,7 +32,8 @@ namespace MVCLaboratorio.Utilerias
 
                 filas = comando.ExecuteNonQuery();
             } //try
-            catch (Exception) { throw; }
+            catch (Exception) { 
+                throw; }
             finally
             {
                 con.Close();
